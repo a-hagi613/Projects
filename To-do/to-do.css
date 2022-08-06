@@ -40,6 +40,8 @@ input {
     font-weight: 900;
     height: 45px;
     background: white;
+    width: 5pc;
+    height: 3pc;
 }
 
 p {

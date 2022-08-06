@@ -21,6 +21,7 @@
 
     completeBtn.addEventListener("click", function() {
         task.style.textDecoration = "line-through"
+        task.style.textDecorationThickness = "10px"
     })
 
     deleteBtn.addEventListener("click", function() {
