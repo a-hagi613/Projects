@@ -1,0 +1,101 @@
+/* .main {
+    display: flex;
+    justify-content: center;
+} */
+
+/* #tasks {
+     display: flex;
+    justify-content: center; 
+} */
+
+/* rainbow header */
+h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 6rem;
+    /* background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+  }
+  /*  */
+.main {
+    margin: 75px;
+}
+
+input {
+
+    width: 25%;
+    height: 50px;
+    border: groove;
+    border-color: black;
+    border-radius: 10px;
+}
+
+#btn {
+    
+    border-color: black;
+    border-radius: 7px;
+    margin: 5px;
+    font-weight: 900;
+    height: 45px;
+    background: white;
+}
+
+p {
+    font-size: x-large;
+    font-family:fantasy;
+    text-align-last:center;
+}
+
+button{
+    margin: 5px;
+}
+
+h2 {
+    font-size: xx-large;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+h5{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* rainbow background color  */
+.wrapper { 
+    height: 100%;
+    width: 100%;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;}
+  
+  @-webkit-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @keyframes rainbow { 
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+/*    */

@@ -1,0 +1,3 @@
+1. create the html body for the to do list. this involves the search bar and button and a title 
+2. create the dom elements and add event listeners to them  
+3. style the page 
