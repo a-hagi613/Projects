@@ -9,6 +9,7 @@ QR Code Generator is a quick and connivent way to generate new QR codes for anyt
 ## Getting Started
 
 **Link to the site:**
+https://qr-five-eta.vercel.app/
 
 ### Dependencies
 
