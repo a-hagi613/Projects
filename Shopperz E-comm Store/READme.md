@@ -4,7 +4,7 @@ Shopperz E-comm site
 
 ## Description
 
-This is a simple e-commerce high end fashion site. You can add browse at the selected item and add them to your cart.
+This is a simple e-commerce high end fashion site. You can browse at the items displayed or add them to your cart.
 
 ## Getting Started
 

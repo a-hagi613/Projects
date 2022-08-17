@@ -4,7 +4,7 @@ Rainbow To-do List App
 
 ## Description
 
-This is a simple to list app with that implements your basic CRUD operations. To add a bit more color I made the background rainbow themed
+This is a simple to list app that implements your basic CRUD operations. To add a bit more color I made the background rainbow themed.
 
 ## Getting Started
 
