@@ -8,11 +8,11 @@ The Golden Ticket is a Movie search site to discover and browse through your fav
 
 ## Getting Started
 
-Link to the site: https://golden-ticket-cpl7-9gxdy70xz-a-hagi613.vercel.app/
+**Link to the site:** https://golden-ticket-cpl7-9gxdy70xz-a-hagi613.vercel.app/
 
 The Username and Password for the login page is:
-Username: User1
-Password: 123
+**Username:** **_User1_**
+**Password:** **_123_**
 
 ### Dependencies
 
