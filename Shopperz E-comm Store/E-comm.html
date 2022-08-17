@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navBar</title>
+    <link rel="stylesheet" href="E-comm.css">
+    
+</head>
+<body>
+
+         <div class="navBar">
+        <img src="shop.png" alt="shopperz" height="80" width="250">
+
+
+        <div class="btn">
+        <input class="btn1" type="search" placeholder="search items..." width="200" height="200" style="color:black">
+        <button class="btn2">search</button>
+      </div>
+    
+        <ul>
+            <li class="lis1"> <a href="#"></a> Home</li>
+            <li class="lis1">Our Products</li>
+            <li class="lis1">About Us</li>
+            <li class="lis1">Contact Us</li>
+        </ul>
+    </div> 
+
+    <section>
+        <div class="section1">
+            <img id="watch" src="suits3.png" alt="watch1" height="1500" width="1000"> </a> 
+        </div>
+    </section>
+
+    <br>  <br> 
+
+    <section class="section2">
+
+        <div class="card">
+            <img src="watches v6.png" alt="watch" style="width:100%" height="300px">
+            <h1 class="name" id="n1"> Watches</h1>
+            <p class="price" id="p1">$1,000,000</p>
+            <p>40mm 18k yellow gold case with diamond lugs and a "Rainbow" sapphire bezel surrounding a black diamond and gold crystal dial on an 18k yellow gold Oyster bracelet with folding buckle..</p>
+            <p><button onclick="addToCart(document.querySelector('#n1').innerHTML, document.querySelector('#p1').innerHTML)">Add to Cart</button></p>
+          </div>
+
+
+          <div class="card">
+            <img src="jacket.jpg" alt="jacket" style="width:100%" height="300px">
+            <h1 class="name" id="n2"> Tuxedo Jacket</h1>
+            <p class="price" id="p2">$10,000</p>
+            <p>Refined lines and luxurious materials define Canali's timeless tailoring. The elegant statement piece is an investment in wardrobe longevity and versatility.</p>
+            <p><button onclick="addToCart(document.querySelector('#n2').innerHTML, document.querySelector('#p2').innerHTML)">Add to Cart</button></p>
+          </div>
+
+
+          <div class="card">
+            <img src="jacket snip.png" alt="dress shirt" style="width:100%" height="300px">
+            <h1 class="name" id="n3"> Tuxedo Shirt</h1>
+            <p class="price" id="p3">$1,000</p>
+            <p>Refined lines and luxurious materials define Canali's timeless tailoring. The elegant statement piece is an investment in wardrobe longevity and versatility.</p>
+            <p><button  onclick="addToCart(document.querySelector('#n3').innerHTML, document.querySelector('#p3').innerHTML)">Add to Cart</button></p>
+          </div>
+
+
+          
+          <div class="card">
+            <img src="shoes v7.png" alt="shoes" style="width:100%" height="275px">
+            <h1 class="name" id="n4"> Shoes</h1>
+            <p class="price" id="p4">$100,000</p>
+            <p>Crafted in Italy from smooth patent leather this pair is complete with a semi-squared toe, and tonal grosgrain trim across the vamp. A guaranteed investment in longevity, they instantly elevate a variety of refined ensembles.</p>
+            <p><button  onclick="addToCart(document.querySelector('#n4').innerHTML, document.querySelector('#p4').innerHTML)">Add to Cart</button></p>
+          </div>
+
+    </section>
+
+    <br>
+    <div>
+      <h1 class="cart"> <b> <u>Cart:</u></b> </h1>
+     </div>
+    <br>
+    <hr>
+
+    <footer>
+      <h1 class="text-center" style="font-size: larger">Shopperz Inc.</h1>
+
+      <ul class="footer-links">
+        <li class="footer-links">
+          About
+        </li>
+        <li class="footer-links">
+          Privacy Policy
+        </li>
+        <li class="footer-links">
+         Disclaimer</a>
+        </li>
+     </ul>
+
+
+      <p class="text-center">Copyright &copy; Shopperz.com</p>
+    </footer>
+
+
+    <script src="E-comm.js"></script>
+    </body>
+    </html>     
