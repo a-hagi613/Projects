@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Abdullahi</h1>
 <h3 align="center">A passionate junior full stack developer from Canada 🍁 trying my best to learn something new everyday!</h3>
 
-- 🔭 I’m currently working on [a QR Code Generator](https://qr-ao7v1hmfc-a-hagi613.vercel.app/)
+- 🔭 I recently finished working on [a QR Code Generator](https://qr-ao7v1hmfc-a-hagi613.vercel.app/)
 
 - 🌱 I’m currently learning **Bootstrap and React.**
 
