@@ -13,6 +13,7 @@ The Golden Ticket is a Movie search site to discover and browse through your fav
 The Username and Password for the login page is:
 
 **Username:** **_User1_**
+
 **Password:** **_123_**
 
 ### Dependencies
