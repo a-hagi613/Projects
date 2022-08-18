@@ -1,10 +1,10 @@
 # Project Title
 
-Rainbow To-do List App
+Rainbow Gratitude Journal
 
 ## Description
 
-This is a simple to list app that implements your basic CRUD operations. To add a bit more color I made the background rainbow themed.
+This is a simple yet sleek gratitude journal that implements your basic CRUD operations. To add a bit more color I made the background color rainbow themed.
 
 ## Getting Started
 
