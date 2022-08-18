@@ -5,6 +5,7 @@
     
     button.addEventListener("click", function() {
      const task =document.createElement("p")
+
      const deleteBtn = document.createElement("button")
      deleteBtn.innerText = "❌"
      deleteBtn.classList.add("deleteBtn")
@@ -12,7 +13,8 @@
      const completeBtn = document.createElement("button")
      completeBtn.innerText = "✅"
      completeBtn.classList.add("completeBtn")
- 
+
+
     task.innerText= "-" + input.value
     taskDiv.append(task) 
     task.append(completeBtn)
