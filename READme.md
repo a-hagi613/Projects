@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Abdullahi</h1>
-<h3 align="center">A  junior full stack developer from Canada 🇨🇦 trying my best to learn something new everyday!</h3>
+<h3 align="center">I am a junior full stack developer from Canada 🍁 trying my best to learn something new everyday!</h3>
 
 - 🔭 I recently finished working on [a QR Code Generator](https://qr-ao7v1hmfc-a-hagi613.vercel.app/)
 
