@@ -1,10 +1,10 @@
-## Preview
+# Preview
 
-<img src="gt  login.png">
-<img src="gt main.png">
-<img src="gt main 2.png">
+<img src="golden ticket login.png">
+<img src="golden ticket main.png">
+<img src="golden ticket main 2.png">
 
-# Project Title
+## Project Title
 
 The Golden Ticket
 

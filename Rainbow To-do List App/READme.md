@@ -1,14 +1,14 @@
-# Project Title
+# Preview
 
-Rainbow Gratitude Journal
+<img src="to do 1.png">
+
+## Project Title
+
+Rainbow To-Do List
 
 ## Description
 
-This is a simple yet sleek gratitude journal that implements your basic CRUD operations. To add a bit more color I made the background color rainbow themed.
-
-## Getting Started
-
-**Link to the site:** https://to-do-list-a-hagi613.vercel.app/
+This is a simple yet sleek to-do list that implements your basic CRUD operations. To add a bit more color I made the background color rainbow themed.
 
 ### Dependencies
 

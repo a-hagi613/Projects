@@ -1,4 +1,8 @@
-# Project Title
+# Preview
+
+<img src="qr 1.png">
+
+## Project Title
 
 QR Code Generator
 
