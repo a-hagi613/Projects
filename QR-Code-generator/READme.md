@@ -1,4 +1,8 @@
-# Project Title
+# Preview
+
+<img src="pic_trulli.png">
+
+## Project Title
 
 QR Code Generator
 
