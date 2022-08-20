@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vowel Counter</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <style>
+    body {
+      background: black;
+    }
+
+    p {
+      color: #ffbb33;
+      font-size: 2pc;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+
+    h1 {
+      color: #ffbb33;
+      font-size: 5pc;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+    h3 {
+      color: #ffbb33;
+      font-size: 3pc;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+  </style>
+
+  <body>
+    <center>
+      <h1 class>Vowel Counter</h1>
+      <h3>Type a word and see how many vowels it has!</h3>
+      <form name="form" id="form">
+        <div class="input-group p-5">
+          <input
+            id="input"
+            type="text"
+            class="form-control"
+            placeholder="enter word..."
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+          <button
+            id="button"
+            class="btn btn-warning btn-lg btn-outline-dark"
+            type="button"
+            id="button-addon2"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+
+      <div id="pdiv">
+        <p></p>
+      </div>
+    </center>
+
+    <script>
+      let form = document.getElementById("form");
+      let string = document.getElementById("input");
+      let button = document.getElementById("button");
+      let counter = 0;
+      let vowels = ["a", "e", "i", "o", "u"];
+
+      function resetCounter() {
+        counter = 0;
+      }
+
+      function countVowel(e) {
+        e.preventDefault();
+        for (charW of string.value.toLowerCase()) {
+          for (charV of vowels) {
+            if (charV == charW) {
+              counter++;
+              let div = document.getElementById("pdiv");
+              let p = document.createElement("p");
+              div.innerHTML = " ";
+              p.innerHTML = `${string.value} has ${counter} vowels`;
+              div.append(p);
+            }
+          }
+        }
+        resetCounter();
+      }
+
+      button.addEventListener("click", countVowel);
+    </script>
+  </body>
+</html>

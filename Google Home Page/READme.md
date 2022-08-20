@@ -1,10 +1,14 @@
+# Preview
+
+<img src="google.png">
+
 # Project Title
 
 Google Home Page Clone
 
 ## Description
 
-To practice on my CSS and design skills i decided to try to recreate Google's landing page. Best viewed on desktop.
+To practice on my CSS and design skills i recreated Google's landing page. Best viewed on desktop.
 
 ## Getting Started
 
