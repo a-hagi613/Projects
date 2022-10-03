@@ -86,7 +86,7 @@ showMovie()
 function trendingMovie() {
     
 const url = 
-"http://api.themoviedb.org/3/discover/movie?api_key=0870ad4a8ba8822ee1a9f649978d935a&language=en-US&sort_by=vote_average.desc&vote_count"
+"http://api.themoviedb.org/3/discover/movie?api_key=0870ad4a8ba8822ee1a9f649978d935a&language=en-US&sort_by=vote_average.desc&vote_count.gte=1000"
 
 // https://api.themoviedb.org/3/movie/top_rated?api_key=0870ad4a8ba8822ee1a9f649978d935a&language=en-US&page=1
     fetch(url)
