@@ -1,0 +1,26 @@
+import puppeteer from "puppeteer";
+
+(async () => {
+  // Launch the browser
+  const browser = await puppeteer.launch();
+
+  // Create a page
+  const page = await browser.newPage();
+
+  // Go to your site
+  await page.goto(
+    "https://jobs.td.com/en-CA/job-search-results/?keyword=engineer"
+  );
+
+  // Query for the first 3 li.job.clearfix elements
+  const elements = await page.$$("li.job.clearfix:nth-child(-n+4)");
+
+  // Loop over the elements and log their text content
+  for (let i = 0; i < elements.length; i++) {
+    const elementText = await page.evaluate(el => el.textContent, elements[i]);
+    console.log(elementText);
+  }
+
+  // Close browser.
+  await browser.close();
+})();
