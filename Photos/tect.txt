@@ -1,0 +1,44 @@
+import puppeteer from "puppeteer";
+
+(async () => {
+  // Launch the browser
+  const browser = await puppeteer.launch();
+
+  // Create a page
+  const page = await browser.newPage();
+
+  // Go to your site
+  await page.goto("https://jobs.td.com/en-CA/job-search-results/?keyword=tech");
+
+  // Loop over the first three jobs
+  for (let i = 1; i < 4; i++) {
+    // Loop over the first three job titles
+    const titles = await page.$$(`a#job-result${[i]}`);
+    const titleText = await page.evaluate(el => el.textContent, titles[0]);
+
+    // Loop over the first three job categories
+    const categories = await page.$$(`div.jobCategory`);
+    const categoriesText = await page.evaluate(
+      el => el.textContent,
+      categories[i]
+    );
+
+    // Loop over the first three job locations
+    const locations = await page.$$(`div.parent.location`);
+    const locationsText = await page.evaluate(
+      el => el.textContent,
+      locations[i]
+    );
+
+    // Loop over the first three job dates
+    const dates = await page.$$(`li.job-data.open_date`);
+    const datesText = await page.evaluate(el => el.textContent, dates[i]);
+
+    console.log(`Job title ${[i]} is ${titleText}`);
+    console.log(`Job category ${[i]} is ${categoriesText}`);
+    console.log(`Job location ${[i]} is located in ${locationsText}`);
+    console.log(`Job ${[i]} was posted on ${datesText}`);
+  }
+
+  await browser.close();
+})();
